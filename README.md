@@ -15,37 +15,36 @@ Pandas: Untuk pengolahan data dari format JSON ke DataFrame.
 Pickle: Untuk menyimpan model hasil training agar bisa digunakan langsung oleh aplikasi.
 
 📁 Struktur File Utama
-train_model.py: Script untuk memproses data mentah, membangun vektor TF-IDF, melakukan evaluasi sistem, dan menyimpan model ke dalam file .pkl.
-
-app.py: Aplikasi utama Streamlit yang memuat model, memproses input user secara real-time, dan menampilkan UI chat.
-
-data/modul_se.json: Basis data pengetahuan berisi daftar tag, pertanyaan (dalam format list), dan jawaban.
-
-models/model_se.pkl: File biner yang berisi objek vectorizer, tfidf_matrix, dan data jawaban hasil pelatihan.
-
-requirements.txt: Daftar pustaka (dependencies) yang harus diinstal.
+## 📁 Struktur Proyek
+- `app.py`: Interface utama chatbot (Streamlit).
+- `train_model.py`: Script pengolahan data, training, dan evaluasi akurasi.
+- `data/modul_se.json`: Basis pengetahuan (knowledge base).
+- `models/model_se.pkl`: Model biner hasil training (Vektor & TF-IDF matrix).
+- `requirements.txt`: Daftar library (Streamlit, Pandas, Scikit-learn, Sastrawi).
+- `picture/latar.jpg`: Folder aset gambar yang digunakan untuk background (latar.jpg).
 
 ⚙️ Cara Menjalankan Sistem
 1. Instalasi Library
 Instal semua library yang tercantum dalam requirements.txt:
 
 Bash
+   pip install -r requirements.txt
 
-pip install -r requirements.txt
 2. Pelatihan & Evaluasi Model
 Jalankan script training untuk menghasilkan model dan melihat akurasi sistem:
 
 Bash
+   python train_model.py
 
-python train_model.py
+
 Script ini akan memecah 50 kategori utama menjadi 279 variasi pertanyaan dan menguji kemampuan temu kembali sistem.
 
 3. Menjalankan Chatbot
 Gunakan perintah berikut untuk membuka chatbot di browser:
 
 Bash
+   streamlit run app.py
 
-streamlit run app.py
 🧠 Alur Pengolahan Teks (NLP Pipeline)
 Setiap input (baik saat training maupun saat chat) melewati tahap berikut:
 
