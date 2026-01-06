@@ -100,7 +100,7 @@ img_data = get_base64_image("picture/latar.jpg")
 
 # --- UI DEPLOYMENT ---
 def main():
-    st.set_page_config(page_title="SE 2026", layout="centered")
+    st.set_page_config(page_title="SE 2026", lpage_icon="🤖", layout="wide")
 
     # CSS MURNI: Mengatur layout agar melambung ke atas dan scrollable
     st.markdown(f"""
@@ -129,6 +129,7 @@ def main():
 
         .chat-content {{
             display: flex;
+            height: 70vh;
             flex-direction: column; /* Mengurutkan dari atas ke bawah */
             height: calc(100vh - 160px); /* KUNCI: Memberikan tinggi tetap agar scroll muncul */
             overflow-y: auto !important; /* Paksa scroll aktif */
@@ -157,11 +158,26 @@ def main():
         .bubble {{
             padding: 10px 15px;
             border-radius: 15px;
-            max-width: 80%;
+            max-width: 85%;
             font-family: 'Poppins', sans-serif;
+            line-height: 1.4;
+            word-wrap: break-word;
             font-size: 14px;
             color: black !important;
         }}
+
+        /* MASUKKAN DI SINI: Gunakan double curly braces {{ }} untuk CSS di dalam f-string Python */
+        @media (max-width: 600px) {{
+            .chat-content {{
+                height: 60vh;
+            }}
+            .bubble {{
+                max-width: 90%;
+                font-size: 13px;
+            }}
+        }}
+        </style>
+
         .bot {{ background-color: #e3f2fd; align-self: flex-start; border-radius: 15px 15px 15px 4px; }}
         .user {{ background-color: #dcedc8; align-self: flex-end; border-radius: 15px 15px 4px 15px; }}
 
