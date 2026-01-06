@@ -1,0 +1,252 @@
+[
+  {
+    "tag": "salam",
+    "pertanyaan": ["assalamualaikum ","Assalamualaikum ","asalamualaikum","samlikum"],
+    "jawaban": "Waalaikumsalam warahmatullohi wabarokatuh."
+  },
+  {
+    "tag": "sapa",
+    "pertanyaan": ["halo","hallo","Selamat pagi","Selamat Siang"," Selamat sore"," Selamat malam"," salam","salam kebajikan"],
+    "jawaban": "Halo salam sejahtera selamat beraktifitas."
+  },
+  {
+    "tag": "tentang_sistem",
+    "pertanyaan": ["sistem apa ini","apa ini"," ini apa","apa sih ini","chat apa ini?","sistem apa sih"],
+    "jawaban": "Saya adalah sistem yang melayani masyarakat terkait pertanyaan tentang sensus ekonomi, ada yang ingin ditanyakan?."
+  },
+  {
+    "tag": "definisi_se",
+    "pertanyaan": ["apa itu SE 2026"," apa itu sensus ekonomi"," pengertian sensus ekonomi"," sensus ekonomi online itu apa"," tujuan sensus ekonomi"," sensus ekonomi dilakukan oleh siapa"],
+    "jawaban": "Sensus Ekonomi adalah kegiatan pendataan yang dilakukan oleh Badan Pusat Statistik (BPS) untuk mengumpulkan informasi seluruh kegiatan usaha ekonomi di Indonesia, kecuali sektor pertanian."
+  },
+  {
+    "tag": "jadwal_pelaksanaan",
+    "pertanyaan":["kapan sensus ekonomi SE dilaksanakan"," jadwal sensus ekonomi"," kapan sensus ekonomi"," kapan waktu sensus"," kapan sensus ekonomi berjalan"," jadwal sensus"],
+    "jawaban": "Sensus Ekonomi 2026 dilaksanakan bulan Mei–Juni 2026 di seluruh Indonesia."
+  },
+  {
+    "tag": "lokasi_sensus",
+    "pertanyaan": ["dimana tempat se"," tempatnya ada dimana"," dimana sensus ekonomi dilakukan"," lokasi sensus ekonomi 2026"," tempat pelaksanaan sensus ekonomi"," sensus dilakukan di mana"],
+    "jawaban": "Sensus dilakukan di tempat usaha masyarakat di seluruh wilayah Indonesia, baik di kota maupun desa. Petugas BPS akan mendatangi langsung atau bisa juga dilakukan secara online."
+  },
+  {
+    "tag": "keamanan_data",
+    "pertanyaan": ["apakah ini aman ","aman ","apakah aman ","apakah data sensus aman ","kerahasiaan data sensus ekonomi ","keamanan data usaha sensus ","apakah data dijamin rahasia"],
+    "jawaban": "Ya, data Anda dijamin kerahasiaannya sesuai UU Statistik. Hanya digunakan untuk keperluan statistik dan tidak dipublikasikan per individu."
+  },
+  {
+    "tag": "cakupan_usaha",
+    "pertanyaan": ["apakah usaha mikro didata ","jenis-jenis usaha","jualan apa saja","apa saja cakupan usaha","cakupannya apa saja","usaha rumahan termasuk sensus"," jenis usaha mikro yang dicatat","usaha kecil masuk sensus ekonomi"],
+    "jawaban": "Ya, semua jenis usaha termasuk usaha mikro, kecil, dan rumahan akan didata dalam Sensus Ekonomi."
+  },
+  {
+    "tag": "petugas_sensus",
+    "pertanyaan": ["siapa yang menjadi petugas sensus ","petugas sensus ekonomi berasal dari mana","petugas sensus menggunakan apa ","identitas petugas sensus ekonomi","petugasnya pakai apa","petugasnya pake apa","siapa sih petugasnya","adakah petugasnya","siapa yang melakukan","siapa orangnya","darimana orangnya"],
+    "jawaban": "Sensus Ekonomi dilakukan oleh petugas resmi dari Badan Pusat Statistik (BPS) yang sudah dibekali identitas dan surat tugas, silahkan untuk menayanyakna kelengkapan petugas saat ada yang bertanya di tempat."
+  },
+  {
+    "tag": "kontak_bps",
+    "pertanyaan": ["nomor call center bps tasikmalaya ","cara menghubungi bps ","kontak resmi sensus ekonomi ","nomor telepon sensus ekonomi 2026","nomor telepon admin sensus ekonomi","harus hubungi siapa","siapa yang harus dihubungin ketika bingung","nomor call centernya berapa","berapa nomor adminnya","nomor yang bisa dihibungi","hubungin siapa jika ingin mendaftar sensus","hubungi siapa jika ingin bertanya kepastian"],
+    "jawaban": "Silakan hubungi Call Center BPS Tasikmalaya di (0265) XXX-XXX pada jam kerja."
+  },
+  {
+    "tag": "terima_kasih",
+    "pertanyaan": ["terima kasih ","makasih ","thanks ","terima kasih banyak"," terimakasih makasi","thank you","maacih","good","makasih banget"],
+    "jawaban": "Terima kasih juga! Senang bisa membantu 😊"
+  },
+  {
+    "tag": "data_dikumpulkan",
+    "pertanyaan": ["data apa saja yang dikumpulkan"," jenis informasi yang dicatat ","sensus data usaha yang direkam sensus ","informasi yang diminta dalam sensus"],
+    "jawaban": "Data yang dikumpulkan mencakup nama usaha, lokasi, jenis usaha, jumlah pekerja, pendapatan, dan pengeluaran."
+  },
+  {
+    "tag": "kendala_kunjungan",
+    "pertanyaan": ["bagaimana jika saya tidak di rumah saat sensus ","jika tidak ada orang saat sensus bagaimana ","kalau rumah kosong saat sensus bagaimana ","gimana jika tidak sempat mengisi sensus ekonomi"],
+    "jawaban": "Petugas sensus akan menjadwalkan ulang kunjungan atau menghubungi Anda melalui kontak yang tersedia."
+  },
+  {
+    "tag": "cara_online",
+    "pertanyaan": ["bagaimana cara isi sensus online ","mengisi e-form sensus ekonomi ","cara akses form sensus online sensus ","lewat internet"],
+    "jawaban": "Jika tersedia, pengisian Sensus Ekonomi juga bisa dilakukan secara online melalui e-form resmi dari BPS."
+  },
+  {
+    "tag": "manfaat_se",
+    "pertanyaan": ["buat apa se sensus ekonomi itu","apa manfaat sensus ekonomi ","tujuan utama sensus ekonomi ","kenapa sensus ekonomi dilakukan ","fungsi dari sensus ekonomi"],
+    "jawaban": "Sensus Ekonomi memberikan data penting untuk perencanaan pembangunan, kebijakan ekonomi, dan investasi daerah."
+  },
+  {
+    "tag": "definisi_se2026",
+    "pertanyaan": ["apa itu se2026 ","pengertian se2026 ","dalam sensus se2026 itu kegiatannya apa ","se2026 dijelaskan secara singkat","jelaskan pengertian se2026"],
+    "jawaban": "SE2026 adalah kegiatan pendataan lengkap seluruh unit usaha di Indonesia yang dilakukan oleh BPS setiap 10 tahun sekali."
+  },
+  {
+    "tag": "uji_coba",
+    "pertanyaan": ["jadwal uji coba sensus ekonomi ","uji coba tahap satu se2026 ","se2026 uji coba ","kapan dimulai tahapan uji coba sensus ekonomi"],
+    "jawaban": "Uji coba SE2026 Tahap 1 dilaksanakan pada 1–31 Juli 2024, dan tahap 2 pada Oktober 2024."
+  },
+  {
+    "tag": "usaha_informal",
+    "pertanyaan": ["apakah usaha informal masuk sensus ","usaha tidak resmi akan didata ","usaha kecil tanpa izin tetap disensus ","usaha rumahan tanpa izin","dagang kecil-kecilan di datak tidak","dagang asongan di data tidak","pedagang kaki lima di data tidak","dagangan kecil di data tidak"],
+    "jawaban": "Usaha informal seperti warung, bengkel rumahan, dan usaha tanpa izin resmi tetap didata dalam SE2026."
+  },
+  {
+    "tag": "metode_pendataan",
+    "pertanyaan": ["metode pengumpulan data sensus ","cara pengisian sensus ekonomi ","wawancara sensus dilakukan bagaimana ","pendataan dilakukan dengan cara apa","cara ngedatanya gimana","ngumpulin datanya gimana sih","cara mengumpulkan datanya","cara kumpulin data"],
+    "jawaban": "SE2026 menggunakan metode PAPI, CAPI, dan CAWI sesuai kondisi responden dan lokasi."
+  },
+  {
+    "tag": "formulir_dokumen",
+    "pertanyaan": ["jenis formulir yang digunakan dalam se2026 ","dokumen yang dipakai untuk sensus ekonomi tr1 ","sensus ekonomi 2026 digunakan untuk apa ","formulir utama se2026"],
+    "jawaban": "Formulir utama dalam SE2026 adalah TR1.SE2026-P, TR1.SE2026-L, dan TR1.SE2026-PSLS."
+  },
+  {
+    "tag": "peta_wilayah",
+    "pertanyaan": ["peta apa yang digunakan sensus ekonomi ","penggunaan peta wilayah dalam sensus ","fungsi peta sls sensus ","peta administratif digunakan untuk apa"],
+    "jawaban": "Petugas dibekali Peta Wilayah Administratif dan Peta SLS untuk mengenali wilayah kerja."
+  },
+  {
+    "tag": "aplikasi_fasih",
+    "pertanyaan": ["apa itu aplikasi fasih mobile ","fungsi fasih bps dalam sensus ","aplikasi pengumpulan data sensus ","penggunaan fasih mobile untuk sensus"],
+    "jawaban": "FASIH-Mobile adalah aplikasi resmi BPS yang digunakan petugas untuk mengisi data secara digital."
+  },
+  {
+    "tag": "usaha_besar",
+    "pertanyaan": ["pengisian mandiri untuk usaha besar ","bagaimana pengusaha besar mengisi sensus ","usaha besar isi lewat fasih web ","yang dilakukan pengusaha besar dalam se2026","pedagang besar gimana ngisis sensusnya","dagangan besar isinya gimana"],
+    "jawaban": "Usaha besar diminta mengisi kuesioner secara mandiri melalui FASIH-Web sebelum dikunjungi petugas."
+  },
+  {
+    "tag": "pembaruan_data",
+    "pertanyaan": ["bagaimana pembaruan data usaha dilakukan ","update data usaha sensus ekonomi ","perubahan usaha dicatat sensus ","pemutakhiran data lapangan oleh petugas"],
+    "jawaban": "Petugas akan memperbarui data usaha berdasarkan hasil temuan lapangan dan konfirmasi responden."
+  },
+  {
+    "tag": "tugas_koseka",
+    "pertanyaan": ["apa tugas koseka dalam sensus ","peran koordinator sensus kecamatan ","koseka bps bertanggung jawab untuk apa ","fungsi koseka di lapangan"],
+    "jawaban": "Koseka adalah koordinator sensus di tingkat kecamatan yang mengatur dan mengawasi petugas lapangan."
+  },
+  {
+    "tag": "perlengkapan_petugas",
+    "pertanyaan": ["peralatan yang dibawa petugas"," sensus apa saja yang dibawa petugas lapangan ","identitas dan perlengkapan petugas sensus ","alat kerja petugas se2026","petugas memebawa apa saja"],
+    "jawaban": "Petugas sensus membawa ID resmi, surat tugas, peta wilayah, kuesioner, dan HP dengan FASIH-Mobile."
+  },
+  {
+    "tag": "usaha_tidak_tercatat",
+    "pertanyaan": ["bagaimana jika usaha belum tercatat ","usaha saya belum masuk data sensus ","usaha baru tapi belum terdaftar sensus ","tidak ada di prelist sensus","giman akalo belum ada datanya"],
+    "jawaban": "Jika ada usaha belum tercatat, petugas akan menambahkannya langsung di lapangan."
+  },
+  {
+    "tag": "papi_vs_capi",
+    "pertanyaan": ["perbedaan metode papi dan capi ","apa itu metode papi dalam sensus ","capi digunakan dalam kondisi apa ","papi dan capi sensus ekonomi","papi dan capi itu apa"],
+    "jawaban": "PAPI menggunakan kertas, sedangkan CAPI menggunakan aplikasi digital untuk wawancara."
+  },
+  {
+    "tag": "pengumuman_hasil",
+    "pertanyaan": ["kapan hasil se2026 diumumkan ","jadwal publikasi data sensus ekonomi ","waktu rilis hasil sensus ekonomi 2026 ","hasil akhir se2026 dipublikasikan"],
+    "jawaban": "Hasil akhir SE2026 akan diumumkan pada tahun 2028 setelah semua data dianalisis."
+  },
+  {
+    "tag": "penolakan_sensus",
+    "pertanyaan": ["bagaimana jika saya menolak mengisi sensus ","saya tidak ingin menjawab pertanyaan sensus ","menolak berpartisipasi dalam se2026 ","responden tidak mau di data","saya ngga mau jawab sensus","saya ngga mau di data sensus","kalo saya ngga mau gimana","gimana akalo gw nggak maun jawab"],
+    "jawaban": "SE2026 dilindungi oleh undang-undang. Responden sangat dianjurkan untuk memberikan jawaban yang jujur."
+  },
+  {
+    "tag": "peran_bps",
+    "pertanyaan": ["apa peran bps dalam se2026 ","lembaga penyelenggara sensus ekonomi ","siapa yang menyelenggarakan sensus ","fungsi utama bps di se2026"],
+    "jawaban": "Sensus Ekonomi 2026 diselenggarakan oleh Badan Pusat Statistik (BPS) sebagai lembaga resmi negara."
+  },
+  {
+    "tag": "sektor_pertanian",
+    "pertanyaan": ["apakah petani didata dalam se2026 ","usaha pertanian masuk sensus ekonomi tidak ","tani termasuk dalam sensus ekonomi atau tidak ","sensus sektor pertanian dijelaskan","usaha pertanian masuk sensus ngga"],
+    "jawaban": "Sektor pertanian tidak termasuk dalam cakupan SE2026. Sektor ini didata melalui Sensus Pertanian."
+  },
+  {
+    "tag": "usaha_musiman",
+    "pertanyaan": ["usaha musiman seperti jualan lebaran apakah didata ","usaha tidak tetap apakah masuk sensus ","jualan pasar malam disensus juga kah ","apakah usaha sementara dihitung dalam se2026","dagang permusim di data juga ngga","pedagang musiman di data atau ngga","dagang jarang-jarang di data"],
+    "jawaban": "Usaha musiman seperti jualan lebaran atau pasar malam tetap didata jika masih aktif saat sensus."
+  },
+  {
+    "tag": "verifikasi_data",
+    "pertanyaan": ["bagaimana proses verifikasi data sensus ","validasi data usaha oleh bps ","pengecekan ulang data oleh petugas ","verifikasi sebelum publikasi hasil sensus"],
+    "jawaban": "BPS melakukan verifikasi dan validasi data sebelum hasil akhir diumumkan."
+  },
+  {
+    "tag": "jumlah_petugas",
+    "pertanyaan": ["berapa jumlah petugas sensus ekonomi ","jumlah pencacah lapangan se2026 ","berapa banyak petugas diterjunkan ","jumlah orang bps yang bertugas"],
+    "jawaban": "Jumlah petugas disesuaikan dengan banyaknya wilayah kerja dan jumlah usaha yang perlu dicacah."
+  },
+  {
+    "tag": "target_responden",
+    "pertanyaan": ["siapa yang menjadi target sensus ekonomi ","usaha apa saja yang didata dalam se2026 ","sasaran utama sensus ekonomi 2026 ","target responden sensus ekonomi","siapa aja yang di data","yang harus di data apa aja","siapa yang jadi target data"],
+    "jawaban": "Sasaran SE2026 adalah seluruh unit usaha non-pertanian yang aktif di Indonesia, baik formal maupun informal."
+  },
+  {
+    "tag": "manfaat_pemerintah",
+    "pertanyaan": ["manfaat hasil sensus bagi pemerintah ","gunanya data sensus untuk negara ","penggunaan data se2026 oleh pemerintah ","apa manfaat se2026 untuk pemda","manfaat se untuk pemkot"],
+    "jawaban": "Data SE2026 membantu pemerintah dalam membuat kebijakan ekonomi, pengembangan UMKM, dan pemerataan pembangunan."
+  },
+  {
+    "tag": "terakhir_riwayat_sensus",
+    "pertanyaan": ["kapan terakhir kali sensus ","riwayat tahun berapa sensus ekonomi SE sebelumnya dilakukan ","sebelumnya ","riwayat sensus ekonomi bps kapan se2016 dilaksanakan ","SE sebelumnya dilakukan dan dilaksanakan kapan"],
+    "jawaban": "Sensus Ekonomi sebelumnya dilakukan tahun 2016. Sensus ini dilakukan setiap 10 tahun sekali."
+  },
+  {
+    "tag": "pemanfaatan_data",
+    "pertanyaan": ["untuk apa data sensus ekonomi digunakan ","tujuan pengumpulan data se2026 ","fungsi data se2026 bagi pembangunan ","pemanfaatan hasil se2026"],
+    "jawaban": "Data hasil SE2026 digunakan untuk perencanaan pembangunan ekonomi dan investasi oleh pemerintah pusat dan daerah."
+  },
+  {
+    "tag": "beda_se_sp",
+    "pertanyaan": ["apa beda se2026 dengan sensus pertanian ","perbedaan se dan sp dalam bps ","sensus ekonomi vs sensus pertanian ","apa perbedaan dua jenis sensus"],
+    "jawaban": "SE adalah Sensus Ekonomi untuk usaha non-pertanian, sedangkan SP adalah Sensus Pertanian khusus sektor pertanian."
+  },
+  {
+    "tag": "target_responden_detail",
+    "pertanyaan": ["siapa yang menjadi responden se2026 ","responden sensus ekonomi 2026 itu siapa ","responden usaha yang diwawancara ","yang diwawancarai dalam sensus"],
+    "jawaban": "Responden SE2026 adalah pemilik atau pengelola usaha yang berada di wilayah Indonesia."
+  },
+  {
+    "tag": "sosialisasi",
+    "pertanyaan": ["apakah sensus diumumkan dulu ke masyarakat ","bagaimana bps memberitahu sensus ","pengumuman resmi se2026 ke pelaku usaha ","informasi sensus dari bps"],
+    "jawaban": "Sebelum pelaksanaan SE2026, BPS melakukan sosialisasi kepada masyarakat dan pelaku usaha."
+  },
+  {
+    "tag": "dasar_hukum",
+    "pertanyaan": ["dasar hukum pelaksanaan se2026 ","undang-undang tentang statistik bps ","peraturan tentang sensus ekonomi 2026 ","uu statistik yang digunakan se2026"],
+    "jawaban": "SE2026 dilaksanakan berdasarkan Undang-Undang Nomor 16 Tahun 1997 tentang Statistik."
+  },
+  {
+    "tag": "dokumen_petugas_detail",
+    "pertanyaan": ["dokumen apa saja dibawa petugas sensus ","formulir yang diisi dalam sensus ekonomi ","berkas sensus yang digunakan bps ","dokumen utama dalam se2026"],
+    "jawaban": "Petugas membawa dokumen seperti kuesioner, peta kerja, dan perangkat pengumpulan data."
+  },
+  {
+    "tag": "kejujuran_responden",
+    "pertanyaan": ["bagaimana jika responden memberikan informasi palsu ","apa yang terjadi jika jawaban tidak sesuai"," konsekuensi dari jawaban bohong ","saat sensus apa boleh mengisi data yang tidak benar","apakah boleh bohong","kalo isisya bohong gimana"],
+    "jawaban": "Diharapkan responden memberikan jawaban jujur dan benar agar data akurat dan bermanfaat."
+  },
+  {
+    "tag": "lapor_petugas",
+    "pertanyaan": ["bagaimana cara melaporkan petugas yang mencurigakan petugas bps minta uang apakah bisa dilaporkan verifikasi petugas sensus bps resmi cara memastikan petugas benar dari bps"],
+    "jawaban": "Jika menemukan petugas mencurigakan, laporkan ke kantor BPS terdekat atau hubungi call center."
+  },
+  {
+    "tag": "kekhawatiran_data",
+    "pertanyaan": ["bagaimana jika pengusaha takut data bocor ","apa data usaha bisa disalahgunakan bps ","apakah privasi usaha terjaga oleh sensus ","kekhawatiran pengusaha soal pendataan","saya takut datanya digunakan yang tidak tidak","saya takut datanya bocor","saya takut datanya kenapa-napa","saya khawatir datanya kenapa-napa","pedagang takut data bocor","pedagang takut datanya disalahgunakan","kalo data bocor gimana?","kalo kalau dibajak bagaimana"],
+    "jawaban": "Semua data usaha dijamin kerahasiaannya dan hanya digunakan untuk keperluan statistik nasional."
+  },
+  {
+    "tag": "kewajiban_partisipasi",
+    "pertanyaan": ["siapa yang wajib mengisi sensus ekonomi ","apakah saya harus ikut sensus ","bolehkah tidak menjawab pertanyaan sensus ","kewajiban mengikuti se2026"],
+    "jawaban": "Setiap pelaku usaha sangat dianjurkan untuk berpartisipasi dan memberikan jawaban yang benar."
+  },
+  {
+    "tag": "akses_publik",
+    "pertanyaan": ["bagaimana cara melihat hasil sensus ekonomi ","apakah hasil se2026 bisa diakses online ","hasil sensus diumumkan dimana ","akses publik terhadap hasil se2026"],
+    "jawaban": "Hasil SE2026 dapat diakses melalui publikasi resmi BPS setelah diumumkan secara nasional."
+  },
+  {
+    "tag": "biaya_sensus",
+    "pertanyaan": ["apakah sensus ekonomi gratis untuk responden ","petugas bps boleh minta uang atau tidak ","sensus dipungut biaya atau tidak ","isi sensus ekonomi harus bayar?","kalo di palak gimana","apakah sensus dimintai jatah","apakah ada uang bayaran","apakah sesnsu ekonomi berbayar","apa se 2026 berbayar","apakah se 2026 di pungut uang","apakah petugas sensus boleh meminta uang"],
+    "jawaban": "Pelaksanaan SE2026 tidak dipungut biaya. Petugas tidak diperbolehkan meminta uang kepada responden, jika ada yang meminta uang harap lapor ke pihak bps atau pihak berwajib."
+  }
+]
