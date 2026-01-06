@@ -100,7 +100,7 @@ img_data = get_base64_image("picture/latar.jpg")
 
 # --- UI DEPLOYMENT ---
 def main():
-    st.set_page_config(page_title="SE 2026", lpage_icon="🤖", layout="wide")
+    st.set_page_config(page_title="SE 2026", page_icon="🤖", layout="wide")
 
     # CSS MURNI: Mengatur layout agar melambung ke atas dan scrollable
     st.markdown(f"""
