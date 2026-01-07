@@ -248,6 +248,27 @@ def main():
                 padding-bottom: 80px !important;
             }
         }
+                
+            /* 1. Menghilangkan Menu (Garis Tiga) dan Footer 'Made with Streamlit' */
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        header {visibility: hidden;}
+
+        /* 2. Menghilangkan Toolbar Streamlit Cloud (Manage App, dll) */
+        .stAppToolbar {display: none !important;}
+        
+        /* 3. Menghilangkan Icon Streamlit di pojok bawah (Viewer Badge) */
+        div[data-testid="stStatusWidget"] {display: none !important;}
+        .viewerBadge_container__1QSob {display: none !important;}
+        .viewerBadge_link__1S137 {display: none !important;}
+        
+        /* 4. Menghilangkan elemen dekoratif lainnya di sudut layar */
+        [data-testid="stDecoration"] {display: none !important;}
+        
+        /* 5. Mengatur ulang margin agar tidak ada space kosong di bawah */
+        .main .block-container {
+            padding-bottom: 0px !important;
+        }
         </style>
     """, unsafe_allow_html=True)
 
