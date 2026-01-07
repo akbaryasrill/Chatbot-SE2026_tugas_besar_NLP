@@ -100,11 +100,26 @@ img_data = get_base64_image("picture/latar.jpg")
 
 # --- UI DEPLOYMENT ---
 def main():
-    st.set_page_config(page_title="SE 2026", layout="centered")
+    st.set_page_config(page_title="SE 2026", layout="wide")
+    try:
+        with open("chat.css", "r") as f:
+            css_code = f.read()
+    except Exception:
+        css_code = ""
+    
+        # --- 5. TAMPILAN CHAT ---
+    # 1. Baca CSS asli lu
+    try:
+        with open("chat.css", "r") as f:
+            css_code = f.read()
+    except Exception:
+        css_code = ""
 
-    # CSS MURNI: Mengatur layout agar melambung ke atas dan scrollable
+    # 2. Masukkan CSS asli lu dulu (Biar tampilan PC balik normal)
+     # CSS MURNI: Mengatur layout agar melambung ke atas dan scrollable
     st.markdown(f"""
     <style>
+        {{css_code}}
         [data-testid="stHeader"] {{ display: none !important; }}
         footer {{ visibility: hidden !important; }}
         .stApp {{ 
@@ -180,8 +195,63 @@ def main():
             box-sizing: border-box !important; /* KUNCI: Biar biru penuh sampai pinggir chat */
             z-index: 1000;
         }}
-    </style>
+
+        /* Tambahan khusus untuk memperbaiki responsivitas tanpa merusak chat.css */
+        html, body, [data-testid="stAppViewContainer"] {{
+            max-width: 100% !important; 
+            width: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }}
+
+        /* 1. Perbaikan Global agar tidak ada margin sampah */
+        .main .block-container {{
+            max-width: 100% !important;
+            padding: 1rem !important;
+        }}
+        </style>
+        """, unsafe_allow_html=True)
+
+    # 3. Tambahkan perbaikan KHUSUS MOBILE (Hanya aktif di layar kecil)
+    # PENTING: Jangan pakai f-string di sini biar kurung kurawal CSS nggak error
+    st.markdown("""
+        <style>
+        @media (max-width: 600px) {
+            /* Paksa container Streamlit melebar di HP saja */
+            .main .block-container {
+                max-width: 100% !important;
+                padding: 0 !important;
+            }
+            
+            /* Paksa chat container lu melebar di HP */
+            .chat-container {
+                max-width: 100% !important;
+                width: 100% !important;
+                margin: 0 !important;
+            }
+
+            /* Perbaiki posisi tempat ngetik di HP */
+            [data-testid="stChatInput"] {
+            position: fixed !important;
+            bottom: 10 !important;
+            width: 360px !important; /* Samakan dengan lebar kolom chat */
+            background-color: #007bff !important;
+            padding: 10px !important;
+            left: 50% !important;
+            transform: translateX(-50%) !important;
+            box-sizing: border-box !important; /* KUNCI: Biar biru penuh sampai pinggir chat */
+            z-index: 1000!important;;
+            }
+
+            .chat-content {
+                height: 75vh !important;
+                padding-bottom: 80px !important;
+            }
+        }
+        </style>
     """, unsafe_allow_html=True)
+
+    
 
     # Render Header
     st.markdown("""
