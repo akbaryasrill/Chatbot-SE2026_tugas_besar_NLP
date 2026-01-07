@@ -139,6 +139,7 @@ def main():
             height: 100vh !important; /* Kunci tinggi layar agar tidak jebol ke bawah */
             overflow: hidden !important; /* Paksa halaman diam, biar chat saja yang scroll */
             position: relative;
+            bottom: 10px !important;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
         }}
 
@@ -186,7 +187,7 @@ def main():
         /* Memperbaiki kolom input agar tidak ada celah putih */
         [data-testid="stChatInput"] {{
             position: fixed !important;
-            bottom: 0 !important;
+            bottom: 72px !important;
             width: 520px !important; /* Samakan dengan lebar kolom chat */
             background-color: #007bff !important;
             padding: 10px !important;
@@ -228,12 +229,13 @@ def main():
                 max-width: 100% !important;
                 width: 100% !important;
                 margin: 0 !important;
+                bottom: 10px !important;
             }
 
             /* Perbaiki posisi tempat ngetik di HP */
             [data-testid="stChatInput"] {
             position: fixed !important;
-            bottom: 10 !important;
+            bottom: 72px !important;
             width: 360px !important; /* Samakan dengan lebar kolom chat */
             background-color: #007bff !important;
             padding: 10px !important;
@@ -247,27 +249,6 @@ def main():
                 height: 75vh !important;
                 padding-bottom: 80px !important;
             }
-        }
-                
-            /* 1. Menghilangkan Menu (Garis Tiga) dan Footer 'Made with Streamlit' */
-        #MainMenu {visibility: hidden;}
-        footer {visibility: hidden;}
-        header {visibility: hidden;}
-
-        /* 2. Menghilangkan Toolbar Streamlit Cloud (Manage App, dll) */
-        .stAppToolbar {display: none !important;}
-        
-        /* 3. Menghilangkan Icon Streamlit di pojok bawah (Viewer Badge) */
-        div[data-testid="stStatusWidget"] {display: none !important;}
-        .viewerBadge_container__1QSob {display: none !important;}
-        .viewerBadge_link__1S137 {display: none !important;}
-        
-        /* 4. Menghilangkan elemen dekoratif lainnya di sudut layar */
-        [data-testid="stDecoration"] {display: none !important;}
-        
-        /* 5. Mengatur ulang margin agar tidak ada space kosong di bawah */
-        .main .block-container {
-            padding-bottom: 0px !important;
         }
         </style>
     """, unsafe_allow_html=True)
