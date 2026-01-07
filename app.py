@@ -229,7 +229,6 @@ def main():
                 max-width: 100% !important;
                 width: 100% !important;
                 margin: 0 !important;
-                bottom: 10px !important;
             }
 
             /* Perbaiki posisi tempat ngetik di HP */
