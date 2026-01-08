@@ -6,7 +6,7 @@
   },
   {
     "tag": "sapa",
-    "pertanyaan": ["halo","hallo","Selamat pagi","Selamat Siang"," Selamat sore"," Selamat malam"," salam","salam kebajikan"],
+    "pertanyaan": ["halo","hallo","Selamat pagi","Selamat Siang"," Selamat sore"," Selamat malam"," salam","salam kebajikan","Hai","haii","heloo","hello","helo"],
     "jawaban": "Halo salam sejahtera selamat beraktifitas."
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "tag": "terima_kasih",
-    "pertanyaan": ["terima kasih ","makasih ","thanks ","terima kasih banyak"," terimakasih makasi","thank you","maacih","good","makasih banget"],
+    "pertanyaan": ["terima kasih ","makasih ","thanks ","terima kasih banyak"," terimakasih makasi","thank you","maacih","good","makasih banget","good","bagus juga","keren","mantab","hebat","bolehh","boleh juga","emang beda","terbaik","baik","baik makasih"],
     "jawaban": "Terima kasih juga! Senang bisa membantu 😊"
   },
   {
